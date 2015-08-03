@@ -63,7 +63,7 @@ public class DailyDialog extends JDialog {
         dailyContentPanel.add(someDayMissionListPanel);
 
         JPanel eastPanel = new JPanel();
-        eastPanel.setBorder(BorderFactory.createRaisedSoftBevelBorder());
+        eastPanel.setBorder(BorderFactory.createRaisedBevelBorder());
 
         eastPanel.setLayout(new BorderLayout());
         JScrollPane scrollPane = new JScrollPane(dailyContentPanel);
@@ -89,11 +89,11 @@ public class DailyDialog extends JDialog {
         JPanel westPanel = new JPanel();
 
         calendarDatePanel = new CalendarDatePanel(timestamp);
-        calendarDatePanel.setBorder(BorderFactory.createRaisedSoftBevelBorder());
+        calendarDatePanel.setBorder(BorderFactory.createRaisedBevelBorder());
         westPanel.add(calendarDatePanel);
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
-        buttonPanel.setBorder(BorderFactory.createRaisedSoftBevelBorder());
+        buttonPanel.setBorder(BorderFactory.createRaisedBevelBorder());
         sureButton = new JButton();
         cancelButton = new JButton();
 
